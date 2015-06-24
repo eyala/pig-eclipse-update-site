@@ -5,8 +5,10 @@ pig-eclipse-update-site
 
 * supports Apache Pig Latin 0.11 - 0.14
 * syntax highlighting
-* open declaration (F3) for macros, defines, and UDF's
-* auto complete - defines, relations, reserved words, built in functions
+* open declaration (F3) - for macros, defines, and UDF's
+* auto complete (ctrl+space) - defines, relations, reserved words, built in functions
+* toggle comment (ctrl+shift+c) - to comment/uncomment a block using --
+* find references (ctrl+shift+g) - preliminary implementation, to find usages of macros
 * hover information (tooltips) for macro definitions, UDF's and built in functions (javadocs)
 * preferences page for colors, Pig version, auto complete behavior and more
 
@@ -28,5 +30,5 @@ https://github.com/eyala/pig-eclipse
 
 ### Latest Release
 
-1.1.0, March 26th, 2015 - Open Declaration, tooltips, autocomplete and Pig 0.14 support
+1.1.1, June 24th, 2015 - Toggle comment, initial implementation find references, fix of issue #3 (thanks to tombarya)
 
